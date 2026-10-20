@@ -1,0 +1,18 @@
+# JARVIS Project Requirements
+
+# --- Jayesh: core ---
+google-genai
+python-dotenv
+langdetect
+
+# --- Madhuri: voice (STT) ---
+faster-whisper
+sounddevice
+soundfile
+numpy
+langdetect
+av<14
+
+# --- Akanksha: voice (TTS) ---
+edge-tts
+pygame
