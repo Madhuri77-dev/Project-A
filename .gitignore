@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables & Secrets (CRITICAL: Never commit .env)
+.env
+*.env
+!.env.example
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary audio & outputs
+temp_audio/
+temp_*/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
